@@ -1,0 +1,471 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* 1st Header  */
+
+.fsthead
+{
+    min-height: 4em;
+    width: 100%;
+    background-color: rgb(32, 32, 39);
+    position: sticky;
+    z-index: 2;
+    position: fixed;
+}
+.Domestic
+{
+    color: rgb(10, 202, 209);
+    float: left;
+    width: fit-content;
+    position:relative;
+    left: 8em;
+    font-weight: bold;
+    font-size:3em;
+}
+#Domestic
+{
+    color: white;
+}
+a{
+    color: rgb(10, 202, 209);
+    text-decoration: none;
+    float: right;
+    position:relative;
+    right: 8em;
+    font-weight: bold;
+    font-size:3em;
+} 
+#fontosm
+{
+    color: white;
+}
+
+/* 1st divvv */
+.fstdiv
+{
+    background:linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('backgroundimage.jpeg') no-repeat scroll center;
+    background-size:cover;min-height: 70vh;width: 100%;
+}
+.fstdivright
+{
+    background-color: rgb(10, 202, 209);
+    height: 45vh;
+    width: 40vh;
+    float: right;
+    position: relative;
+    right: 40vh;
+    top: 15vh;
+    padding:35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* first image */
+
+#fstimg
+{
+    min-height:45vh;
+    width: 55vh;
+    float:left ;
+    position: relative;
+    top: 15vh;
+    left: 40vh;
+
+}
+/* first h11 */
+
+.contact
+{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    height: auto;
+}
+
+/* Formm */
+
+form
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 2vh;
+}
+input
+{
+    min-height:5vh;
+    padding: 8px;
+    border-radius: 10px;
+    width: 30vh;
+    margin: auto 10px 10px 0px;
+    border: none;
+}
+input:hover
+{
+    background-color:rgba(32, 32, 39, 0.4);
+    color: white;
+    transform: translate(0.4);
+}
+#submit
+{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(32, 32, 39);
+}
+
+/* Second Divv */
+
+.secnddiv
+{
+    min-height: 40vh;
+    background-color:rgb(32, 32, 39) ;
+}
+.secndfstdiv
+{
+    float:left;
+    width: 20%;
+    height: 22vh;
+    margin: 90px 0px 0px 300px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+.secndsecnddiv
+{
+    float: left;
+    width: 20%;
+    height: 22vh;
+    padding: 10px;
+    margin: 90px 0px 0px 50px;
+    border: 2px solid gray;
+}
+.secndthirddiv
+{
+    float: left;
+    width: 20%;
+    height: 22vh;
+    padding: 10px;
+    margin: 90px 0px 0px 50px;
+    border: 2px solid gray;
+
+}
+.secndh--secndhh
+{
+    color: rgb(10, 202, 209);
+}
+.secndp--secndpp
+{
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* Thirs div  */
+.thirddiv
+{
+    width: 60%;
+    margin: auto;
+}
+
+/* Third first divv */
+.thirdfstdiv
+{
+    float: left;
+    max-width: 100%;
+    margin-top: 130px;
+    color: black;
+}
+#thirddivimg
+{
+    float: right;
+    height: 35vh;
+    width: 40%;
+}
+.tff
+{
+    float: left;
+    width: 40%;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.thirdp--p
+{
+    width: 100%;
+}
+.fsth
+{
+    width: fit-content;
+   position: relative;
+   bottom:15px;
+   margin: auto;
+   color: rgb(10, 202, 209);
+   font-weight: bold;
+   font-size: 30px;
+}
+
+
+
+.tfff
+{
+    float: right;
+    width: 40%;
+    position: relative;
+    top: 80px;
+    right: 20px;
+}
+
+#thirddivimggg
+{
+    float: left;
+    height: 35vh;
+    width: 40%;
+}
+
+/* Fourth Divv */
+.fourthdiv
+{
+    float: left;
+    min-height: 35vh;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(10, 202, 209);
+}
+.ftrfstdiv
+{
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 70px;
+    left: 16%;
+    
+}
+.spnn
+{
+    margin: auto;
+    width: 15%;
+    height: 70px;
+    margin-bottom: 20px;
+    border:2px solid
+}
+
+.ftrscnddiv
+{
+    float:right;
+    width: 30%;
+    position: relative;
+    top: 70px;
+    right: 16%;
+}
+.ptrp
+{
+    text-align: center;
+}
+.ftrp
+{
+    text-align: center;
+}
+.ftrh
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+footer
+{
+    float: left;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    background-color:rgb(32, 32, 39);
+}
+.lstftr
+{
+     margin-top: 3vh;
+     color: gray;
+}
+.italic
+{
+    color: grey;
+}
+
+
+/* .............................................................. .........*/
+/* Resfonsib */
+
+
+
+@media(max-width:425px)
+{
+    
+    .Domestic
+    {
+        top: 1em;
+       left: 2em;
+       font-size:20px;
+    }
+    a
+    {
+        top: 1em;
+        right: 2em;
+        font-size:20px;
+    }
+   .contact
+   {
+    font-size: 20px;
+   }
+
+    /* fstdivvv */
+
+    .fstdiv
+    {
+        height: 110vh;
+    }
+
+    #fstimg
+    {
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 10%;
+    float:none;
+    position: relative;
+    top: 15vh;
+    left:0vh;
+    }
+
+.fstdivright
+{
+    width: 80%;
+    float: none;
+    right: 0vh;
+    margin: auto;
+    margin-top: 1vh;
+}
+.secnddiv
+{
+    height: 100vh;
+}
+.secndfstdiv
+{
+    float: none;
+    width: 70%;
+    position: relative;
+    top: 20px;
+    height: 30vh;
+    margin-top: 0;
+    margin-left:15%;
+}
+.secndsecnddiv
+{
+    float: none;
+    width: 70%;
+    height: 30vh;
+    margin-top: 40px;
+    margin-left:15%;
+}
+.secndthirddiv
+{
+    
+    float: none;
+    width: 70%;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left:15%;
+}
+.thirddiv
+{
+    width: 80%;
+}
+.thirdfstdiv
+{
+    float: none;
+    width: fit-content;
+    height: 75vh;
+    margin-top: 0vh;
+}
+#thirddivimg
+{
+    float: none;
+    height: 30vh;
+    margin-top: 10vh;
+    width: 60%;
+    margin-left: 20%;
+}
+#thirddivimggg
+{
+    float: none;
+    height: 30vh;
+    margin-top: 12vh;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.tff
+{
+    float: none;
+    width: 60%;
+    margin: auto;
+    left: 0;
+    font-size: 12px;
+}
+.fsth
+{
+    font-size: 20px;
+}
+
+.tfff
+{
+   
+    float: none;
+    left: 0;
+    font-size: 12px;
+    width: 60%;
+    margin: auto;
+}
+
+.fourthdiv
+{
+    float: none;
+    height: 60vh;
+}
+.ftrfstdiv
+{
+    float:none;
+    width: 80%;
+    margin: auto;
+    top: 5%;
+    left: 0;
+}
+
+
+.ftrscnddiv
+{
+   
+    float:none;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    left: 0; 
+}
+.ftrh
+{
+    font-size: 15px;
+}
+.ftrp
+{
+    font-size: 12px;
+}
+footer
+{
+    font-size: 10px;
+}
+
+
+}
